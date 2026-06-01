@@ -7,8 +7,8 @@ import os
 st.set_page_config(page_title="NL Job Agent", page_icon="🇳🇱", layout="wide")
 
 # Fetch secrets safely
-APP_PASSWORD = st.secrets["Hitarth@2292"]
-GEMINI_API_KEY = st.secrets["AQ.Ab8RN6JJWzMazcxlHY6gcFYkjllEmuU_BtbSUQhDgOloF1ySRw"]
+APP_PASSWORD = st.secrets["APP_PASSWORD"]
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 
 # Configure the AI Brain
 genai.configure(api_key=GEMINI_API_KEY)
@@ -24,7 +24,7 @@ if not st.session_state.authenticated:
     st.title("🔒 Agent Login")
     st.markdown("Please enter your passcode to access the workspace.")
     
-    pwd = st.text_input("Passcode", type="Hitarth@2292")
+    pwd = st.text_input("Passcode", type="password")
     if st.button("Unlock Dashboard"):
         if pwd == APP_PASSWORD:
             st.session_state.authenticated = True
