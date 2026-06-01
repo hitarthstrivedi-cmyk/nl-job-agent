@@ -22,8 +22,8 @@ SUPABASE_URL = st.secrets.get("SUPABASE_URL", "")
 SUPABASE_KEY = st.secrets.get("SUPABASE_KEY", "")
 
 # Configure AI and DB
+genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
-model = genai.GenerativeModel('gemini-1.5-flash')
 
 @st.cache_resource
 def init_db():
