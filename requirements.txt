@@ -2,3 +2,7 @@ streamlit
 google-generativeai
 requests
 pandas
+supabase
+markdown
+pdfkit
+deep-translator
