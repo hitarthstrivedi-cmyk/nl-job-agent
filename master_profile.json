@@ -1,0 +1,43 @@
+{
+  "basics": {
+    "name": "Hitarrth S Trivedi",
+    "title": "Strategy Professional with Experience in Enterprise AI Implementation, Governance, & Transformation Initiatives",
+    "email": "hitarthstrivedi@gmail.com",
+    "phone": "+971 58 650 2770",
+    "linkedin": "www.linkedin.com/in/hitarrth-s-trivedi-7593b8b8",
+    "summary": "Results-driven Strategy and AI Transformation professional with experience in driving enterprise-wide digital initiatives, AI adoption, and data-driven decision-making. Proven ability to translate business challenges into scalable AI and analytics use cases, enabling operational efficiency with a 'People First' approach."
+  },
+  "core_competencies": [
+    "AI Strategy & Implementation",
+    "Digital Transformation",
+    "Change Management",
+    "Business Intelligence",
+    "Data Governance Frameworks",
+    "NLP & Sentiment Analysis"
+  ],
+  "experience": [
+    {
+      "company": "Future Pipe Industries",
+      "location": "Dubai",
+      "title": "Corporate Planner - Strategy & Corporate Planning",
+      "dates": "Feb' 2024 - Present",
+      "highlights": [
+        "Led AI strategy implementation and enterprise AI adoption, aligning use cases with business priorities.",
+        "Identified, evaluated, and scaled AI/ML use cases, translating business problems into practical analytics and automation solutions.",
+        "Drove adoption of AI tools (ChatGPT, Microsoft Copilot) through structured change management and established a Digital Champions network.",
+        "Developed an introductory data governance concept note for executive leadership, advising on frameworks and industry benchmarks."
+      ]
+    },
+    {
+      "company": "ABAMI Training & Consultancy",
+      "location": "Dubai",
+      "title": "Manager & Business Consultant",
+      "dates": "Jul' 2021 - Feb' 2024",
+      "highlights": [
+        "Led end-to-end project management, ensuring timely delivery and achieving Net Gross Margin targets.",
+        "Identified operational inefficiencies and led business process reengineering (BPR) initiatives.",
+        "Designed and implemented instructional design frameworks, curriculum development, and learning experience optimization."
+      ]
+    }
+  ]
+}
